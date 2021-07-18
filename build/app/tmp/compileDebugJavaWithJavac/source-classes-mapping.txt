@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+io/ades_ca3/todoapp/BuildConfig.java
+ io.ades_ca3.todoapp.BuildConfig
