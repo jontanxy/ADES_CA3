@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076858641563",
+    "project_id": "ades-ca3-e8c20",
+    "storage_bucket": "ades-ca3-e8c20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076858641563:android:3bcdb3056df983fbb9ba3e",
+        "android_client_info": {
+          "package_name": "io.ades_ca3.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076858641563-0k62amk429hqrkk51ilvqs9p3ncquinh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_a3NGQv2Z3LY8vYd0cYKrBJWhjlO7O_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076858641563-0k62amk429hqrkk51ilvqs9p3ncquinh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
