@@ -1,0 +1,13 @@
+{
+      "editor.quickSuggestions": true,
+      "editor.tokenColorCustomizations": {
+            "[Dracula]": {
+                  "comments": "#ffcccc",
+            },
+      },
+      "workbench.colorCustomizations": {
+            "[Dracula]": {
+                  "dart.closingLabels": "#ffcccc"
+            }
+      }
+}
