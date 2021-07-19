@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:todoapp/screens/landing_page.dart';
+import 'package:todoapp/pages/landing_page.dart';
 import 'package:todoapp/widgets/sign_in_google_widget.dart';
 
 class HomePage extends StatelessWidget {

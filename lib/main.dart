@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:todoapp/providers/google_sign_in.dart';
-import 'package:todoapp/screens/home_page.dart';
+import 'package:todoapp/pages/home_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
