@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:todoapp/screens/landing_page_widget.dart';
+import 'package:todoapp/screens/landing_page.dart';
 import 'package:todoapp/widgets/sign_in_google_widget.dart';
 
 class HomePage extends StatelessWidget {
@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
                 child: Text("Something went wrong!"),
               );
             } else if (snapshot.hasData) {
-              return LandingPageWidget();
+              return LandingPage();
             } else {
               return SignInGoogleWidget();
             }

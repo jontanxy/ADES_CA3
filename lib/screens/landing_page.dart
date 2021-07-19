@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
-import 'package:todoapp/screens/all_tasks.dart';
-import 'package:todoapp/screens/done_tasks.dart';
-import 'package:todoapp/screens/settings.dart';
-import 'package:todoapp/screens/today.dart';
+// import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
+import 'package:todoapp/screens/all_tasks_page.dart';
+import 'package:todoapp/screens/done_tasks_page.dart';
+import 'package:todoapp/screens/settings_page.dart';
+import 'package:todoapp/screens/today_tasks_page.dart';
 import 'package:todoapp/utilities/color_palette.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
@@ -12,8 +12,8 @@ import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 // import 'package:provider/provider.dart';
 // import 'package:todoapp/providers/google_sign_in.dart';
 
-class LandingPageWidget extends StatelessWidget {
-  LandingPageWidget({Key? key}) : super(key: key);
+class LandingPage extends StatelessWidget {
+  LandingPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
