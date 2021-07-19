@@ -21,12 +21,29 @@ dependencies:
 
   # State Management
   provider: ^5.0.0
+  
+  # Bottom Navigation Bar
+  bottom_navy_bar: ^6.0.0
+  
+  # Appbar Gradient
+  new_gradient_app_bar: ^0.2.0
+
+  # Splash Screen
+  flutter_native_splash: ^1.2.0
+
+  # Add this after it is out of dev mode
+  # # Launcher Icon
+  # flutter_launcher_icons: ^0.8.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_native_splash: ^1.2.0
+# Add this after it is out of dev mode
+# flutter_icons:
+#   image_path: "assets/logo/feather.png"
+#   android: true
+#   ios: true
 
 flutter_native_splash:
   color: "#ffffff"
@@ -38,3 +55,27 @@ flutter_native_splash:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: Caveat
+      fonts: 
+        - asset: assets/fonts/Caveat-Regular.ttf
+        - asset: assets/fonts/Caveat-Medium.ttf
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-Regular.ttf
+        - asset: assets/fonts/RobotoSlab-Medium.ttf
+        - asset: assets/fonts/RobotoSlab-SemiBold.ttf
+          weight: 500
+    - family: Tourney
+      fonts: 
+        - asset: assets/fonts/Tourney-Medium.ttf
+        - asset: assets/fonts/Tourney-Regular.ttf
+        - asset: assets/fonts/Tourney-SemiBold.ttf
+          weight: 500
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 500
