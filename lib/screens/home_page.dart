@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:todoapp/widgets/landing_page_widget.dart';
-import 'package:todoapp/widgets/sign_in_google.dart';
+import 'package:todoapp/screens/landing_page_widget.dart';
+import 'package:todoapp/widgets/sign_in_google_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
