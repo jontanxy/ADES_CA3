@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 // import 'package:new_gradient_app_bar/new_gradient_app_bar.dart';
-import 'package:todoapp/pages/all_tasks_page.dart';
-import 'package:todoapp/pages/done_tasks_page.dart';
-import 'package:todoapp/pages/settings_page.dart';
-import 'package:todoapp/pages/today_tasks_page.dart';
+import 'package:todoapp/widgets/all_tasks_page.dart';
+import 'package:todoapp/widgets/done_tasks_page.dart';
+import 'package:todoapp/widgets/settings_page.dart';
+import 'package:todoapp/widgets/today_tasks_page.dart';
 import 'package:todoapp/utilities/color_palette.dart';
 import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 
