@@ -11,18 +11,23 @@ class GoogleSignInProvider extends ChangeNotifier {
 
   Future googleLogin() async {
     try {
+      // Trigger the authentication flow
       final googleUser = await googleSignIn.signIn();
       if (googleUser == null) return;
+      // Checks if user if logged in
       _user = googleUser;
 
+      // Obtain the auth details from the request
       final googleAuthentication = await googleUser.authentication;
 
+      // Create a new credential
       final credential = GoogleAuthProvider.credential(
         accessToken: googleAuthentication.accessToken,
         idToken: googleAuthentication.idToken,
       );
 
-      await FirebaseAuth.instance.signInWithCredential(credential);
+      // Once signed in, return the UserCredential
+      return await FirebaseAuth.instance.signInWithCredential(credential);
     } catch (e) {
       print(e.toString());
     }
