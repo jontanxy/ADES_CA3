@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
 import 'package:todoapp/providers/google_sign_in.dart';
-import 'package:todoapp/pages/home_page.dart';
+import 'package:todoapp/routers/home_router.dart';
+import 'utilities/color_palette.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: title,
-        theme: ThemeData.dark().copyWith(accentColor: Colors.indigo),
+        theme: ThemeData.light()
+            .copyWith(accentColor: ColorPalette.wisteriaPurple),
         home: HomePage(),
       ));
 }
