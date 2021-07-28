@@ -12,12 +12,16 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
+  # Firebase database
+  cloud_firestore: ^2.4.0
+
   # Google Icon
   font_awesome_flutter: ^9.1.0
 
-  # Google Sign In
+  # Authentication
   firebase_auth: ^1.4.1
   google_sign_in: ^5.0.4
+  flutter_facebook_auth: ^3.5.0
 
   # State Management
   provider: ^5.0.0
@@ -25,11 +29,14 @@ dependencies:
   # Bottom Navigation Bar
   bottom_navy_bar: ^6.0.0
   
-  # Appbar Gradient
-  new_gradient_app_bar: ^0.2.0
+  # # Appbar Gradient
+  # new_gradient_app_bar: ^0.2.0
 
   # Splash Screen
   flutter_native_splash: ^1.2.0
+  
+  # Login Animations
+  flutter_login: ^2.2.0
 
   # Add this after it is out of dev mode
   # # Launcher Icon
@@ -79,3 +86,6 @@ flutter:
         - asset: assets/fonts/Roboto-Regular.ttf
         - asset: assets/fonts/Roboto-Bold.ttf
           weight: 500
+
+  assets:
+    - assets/logo/feather.png
