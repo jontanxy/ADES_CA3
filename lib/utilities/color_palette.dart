@@ -10,6 +10,8 @@ class ColorPalette {
   static const Color facebookBlue = Color(0xff4267B2);
   static const Color pastelBlue = Color(0xffadd8e6);
   static const Color lightRed = Color(0xffeb5951);
+  static const Color dangerRed = Color(0xfff32013);
+  static const Color grassGreen = Color(0xff4DBD33);
 }
 
 class GradientColorPalette {

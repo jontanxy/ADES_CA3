@@ -38,6 +38,9 @@ dependencies:
   # Login Animations
   flutter_login: ^2.2.0
 
+  # Slidable Animations
+  flutter_slidable: ^0.6.0
+
   # Add this after it is out of dev mode
   # # Launcher Icon
   # flutter_launcher_icons: ^0.8.1

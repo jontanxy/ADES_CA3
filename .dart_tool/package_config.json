@@ -176,6 +176,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_slidable",
+      "rootUri": "file:///C:/Users/Jon/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_slidable-0.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/src/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -368,7 +374,7 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-07-26T18:46:05.437133Z",
+  "generated": "2021-08-03T13:03:34.844638Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }

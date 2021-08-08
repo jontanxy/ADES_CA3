@@ -10,7 +10,7 @@ getUID() {
   return uid;
 }
 
-Future addTask(input) async {
+Future addTask(title, description) async {
   // Set as incompleted
   bool isDone = false;
 
@@ -18,7 +18,8 @@ Future addTask(input) async {
   // Call the user's CollectionReference to add a new user
   return await toDoLists
       .add({
-        "task": input,
+        "task": title,
+        "description": description,
         "timestamp": DateTime.now(),
         "completed": isDone,
       })
@@ -35,7 +36,20 @@ Future completeTask(documentId) async {
   return await toDoLists
       .doc(documentId)
       .update({'completed': isDone})
-      .then((value) => print("Task Updated"))
+      .then((value) => print("Task Done"))
+      .catchError((error) => print("Failed to update user: $error"));
+}
+
+Future undoTask(documentId) async {
+  // Set as completed
+  bool isDone = false;
+
+  CollectionReference toDoLists = db.collection(getUID());
+  // onPressed? Yes.
+  return await toDoLists
+      .doc(documentId)
+      .update({'completed': isDone})
+      .then((value) => print("Task Redo"))
       .catchError((error) => print("Failed to update user: $error"));
 }
 
@@ -45,6 +59,6 @@ Future deleteTask(documentId) async {
   return await toDoLists
       .doc(documentId)
       .delete()
-      .then((value) => print("Task Updated"))
+      .then((value) => print("Task Deleted"))
       .catchError((error) => print("Failed to update user: $error"));
 }
