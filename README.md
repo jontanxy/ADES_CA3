@@ -1,2 +1,2 @@
-# ADES_CA3
-This is a project for ADES CA3. There's nothing here...
+# ADES CA3
+Simple ToDo App with Firebase!
